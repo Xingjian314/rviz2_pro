@@ -1,0 +1,5 @@
+laser_geometry
+setuptools
+
+[test]
+pytest

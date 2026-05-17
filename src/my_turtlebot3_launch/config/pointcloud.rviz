@@ -1,0 +1,26 @@
+Panels:
+  - Class: rviz_common/Displays
+  - Class: rviz_common/Views
+  - Class: rviz_common/Selection
+  - Class: rviz_common/ToolProperties
+  - Class: rviz_common/Help
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Robot Description: robot_description
+    - Class: rviz_default_plugins/LaserScan
+      Name: LaserScan
+      Topic: /scan
+      Size (m): 0.03
+      Style: Points
+    - Class: rviz_default_plugins/PointCloud2
+      Name: PointCloud
+      Topic: /pointcloud
+      Style: Points
+      Size (m): 0.03
+  Fixed Frame: base_link
