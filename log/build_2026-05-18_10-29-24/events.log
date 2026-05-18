@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000067] (my_turtlebot3_launch) JobQueued: {'identifier': 'my_turtlebot3_launch', 'dependencies': OrderedDict()}
+[0.000095] (my_turtlebot3_launch) JobStarted: {'identifier': 'my_turtlebot3_launch'}
+[0.005988] (my_turtlebot3_launch) JobProgress: {'identifier': 'my_turtlebot3_launch', 'progress': 'cmake'}
+[0.013829] (my_turtlebot3_launch) Command: {'cmd': ['/usr/bin/cmake', '/home/liuxingjian/Desktop/proj/rviz2_pro/src/my_turtlebot3_launch', '-DCMAKE_INSTALL_PREFIX=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch'], 'cwd': '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/liuxingjian/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('LANGUAGE', 'en_US:'), ('USER', 'liuxingjian'), ('SSH_CLIENT', '192.168.5.1 53057 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh'), ('OPENCODE_PROCESS_ROLE', 'worker'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/liuxingjian'), ('OLDPWD', '/home/liuxingjian/Desktop/proj/rviz2_pro'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a5afb4f6-b920-46df-b5f7-6b49349902c8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('OPENCODE_RUN_ID', 'cce5da06-7231-48bb-8189-ec2b3b066e02'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'liuxingjian'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('OPENCODE', '1'), ('PATH', '/home/liuxingjian/.opencode/bin:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/home/liuxingjian/.opencode/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d5bae294d24deb13.txt'), ('OPENCODE_PID', '341733'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/liuxingjian/.vscode-server/data/User/workspaceStorage/b828088cd64d216646d910d849fd4ade/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1617b644ec.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch'), ('TURTLEBOT3_MODEL', 'burger'), ('SSH_CONNECTION', '192.168.5.1 53057 192.168.5.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098958] (-) TimerEvent: {}
+[0.151076] (my_turtlebot3_launch) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199076] (-) TimerEvent: {}
+[0.258807] (my_turtlebot3_launch) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.270429] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299186] (-) TimerEvent: {}
+[0.330633] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.335160] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.335734] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.336181] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.339687] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399309] (-) TimerEvent: {}
+[0.404014] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.408696] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.409026] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.409340] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.411487] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499419] (-) TimerEvent: {}
+[0.510747] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.581536] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599624] (-) TimerEvent: {}
+[0.611360] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.614389] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.619774] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.628241] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.638202] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.669199] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.670763] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699760] (-) TimerEvent: {}
+[0.737570] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.756688] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.785540] (my_turtlebot3_launch) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.794263] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.799888] (-) TimerEvent: {}
+[0.861250] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.861637] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900047] (-) TimerEvent: {}
+[0.916960] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.917861] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.952034] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.971509] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[0.990695] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.000158] (-) TimerEvent: {}
+[1.048673] (my_turtlebot3_launch) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.048785] (my_turtlebot3_launch) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.048820] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.048851] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.048883] (my_turtlebot3_launch) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.048913] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.048944] (my_turtlebot3_launch) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.049071] (my_turtlebot3_launch) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.049371] (my_turtlebot3_launch) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.050077] (my_turtlebot3_launch) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.050151] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.050298] (my_turtlebot3_launch) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.051468] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.057344] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Generating done\n'}
+[1.062090] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Build files have been written to: /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch\n'}
+[1.069509] (my_turtlebot3_launch) CommandEnded: {'returncode': 0}
+[1.070142] (my_turtlebot3_launch) JobProgress: {'identifier': 'my_turtlebot3_launch', 'progress': 'build'}
+[1.070173] (my_turtlebot3_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch', '--', '-j8', '-l8'], 'cwd': '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/liuxingjian/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('LANGUAGE', 'en_US:'), ('USER', 'liuxingjian'), ('SSH_CLIENT', '192.168.5.1 53057 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh'), ('OPENCODE_PROCESS_ROLE', 'worker'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/liuxingjian'), ('OLDPWD', '/home/liuxingjian/Desktop/proj/rviz2_pro'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a5afb4f6-b920-46df-b5f7-6b49349902c8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('OPENCODE_RUN_ID', 'cce5da06-7231-48bb-8189-ec2b3b066e02'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'liuxingjian'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('OPENCODE', '1'), ('PATH', '/home/liuxingjian/.opencode/bin:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/home/liuxingjian/.opencode/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d5bae294d24deb13.txt'), ('OPENCODE_PID', '341733'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/liuxingjian/.vscode-server/data/User/workspaceStorage/b828088cd64d216646d910d849fd4ade/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1617b644ec.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch'), ('TURTLEBOT3_MODEL', 'burger'), ('SSH_CONNECTION', '192.168.5.1 53057 192.168.5.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.100358] (-) TimerEvent: {}
+[1.113196] (my_turtlebot3_launch) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud_node.cpp.o\n'}
+[1.200546] (-) TimerEvent: {}
+[1.300813] (-) TimerEvent: {}
+[1.401162] (-) TimerEvent: {}
+[1.501377] (-) TimerEvent: {}
+[1.601642] (-) TimerEvent: {}
+[1.701876] (-) TimerEvent: {}
+[1.802206] (-) TimerEvent: {}
+[1.902424] (-) TimerEvent: {}
+[2.002625] (-) TimerEvent: {}
+[2.102921] (-) TimerEvent: {}
+[2.203108] (-) TimerEvent: {}
+[2.303355] (-) TimerEvent: {}
+[2.403613] (-) TimerEvent: {}
+[2.503797] (-) TimerEvent: {}
+[2.603981] (-) TimerEvent: {}
+[2.704221] (-) TimerEvent: {}
+[2.804411] (-) TimerEvent: {}
+[2.904671] (-) TimerEvent: {}
+[3.005800] (-) TimerEvent: {}
+[3.106109] (-) TimerEvent: {}
+[3.206506] (-) TimerEvent: {}
+[3.306788] (-) TimerEvent: {}
+[3.407118] (-) TimerEvent: {}
+[3.507332] (-) TimerEvent: {}
+[3.607552] (-) TimerEvent: {}
+[3.707750] (-) TimerEvent: {}
+[3.807978] (-) TimerEvent: {}
+[3.908215] (-) TimerEvent: {}
+[4.008404] (-) TimerEvent: {}
+[4.108620] (-) TimerEvent: {}
+[4.208890] (-) TimerEvent: {}
+[4.309229] (-) TimerEvent: {}
+[4.409656] (-) TimerEvent: {}
+[4.509971] (-) TimerEvent: {}
+[4.610427] (-) TimerEvent: {}
+[4.710821] (-) TimerEvent: {}
+[4.811058] (-) TimerEvent: {}
+[4.911270] (-) TimerEvent: {}
+[5.011472] (-) TimerEvent: {}
+[5.111732] (-) TimerEvent: {}
+[5.211939] (-) TimerEvent: {}
+[5.312149] (-) TimerEvent: {}
+[5.412367] (-) TimerEvent: {}
+[5.512581] (-) TimerEvent: {}
+[5.612743] (-) TimerEvent: {}
+[5.713003] (-) TimerEvent: {}
+[5.813277] (-) TimerEvent: {}
+[5.913457] (-) TimerEvent: {}
+[6.013642] (-) TimerEvent: {}
+[6.113958] (-) TimerEvent: {}
+[6.214127] (-) TimerEvent: {}
+[6.314336] (-) TimerEvent: {}
+[6.414646] (-) TimerEvent: {}
+[6.515083] (-) TimerEvent: {}
+[6.615344] (-) TimerEvent: {}
+[6.715599] (-) TimerEvent: {}
+[6.815800] (-) TimerEvent: {}
+[6.915967] (-) TimerEvent: {}
+[7.016190] (-) TimerEvent: {}
+[7.116475] (-) TimerEvent: {}
+[7.216702] (-) TimerEvent: {}
+[7.243278] (my_turtlebot3_launch) StdoutLine: {'line': b'[100%] Linking CXX executable laser_to_pointcloud\n'}
+[7.316855] (-) TimerEvent: {}
+[7.417174] (-) TimerEvent: {}
+[7.517487] (-) TimerEvent: {}
+[7.518920] (my_turtlebot3_launch) StdoutLine: {'line': b'[100%] Built target laser_to_pointcloud\n'}
+[7.527213] (my_turtlebot3_launch) CommandEnded: {'returncode': 0}
+[7.527909] (my_turtlebot3_launch) JobProgress: {'identifier': 'my_turtlebot3_launch', 'progress': 'install'}
+[7.534185] (my_turtlebot3_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch'], 'cwd': '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/liuxingjian/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('LANGUAGE', 'en_US:'), ('USER', 'liuxingjian'), ('SSH_CLIENT', '192.168.5.1 53057 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh'), ('OPENCODE_PROCESS_ROLE', 'worker'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/liuxingjian'), ('OLDPWD', '/home/liuxingjian/Desktop/proj/rviz2_pro'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a5afb4f6-b920-46df-b5f7-6b49349902c8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('OPENCODE_RUN_ID', 'cce5da06-7231-48bb-8189-ec2b3b066e02'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'liuxingjian'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('OPENCODE', '1'), ('PATH', '/home/liuxingjian/.opencode/bin:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/home/liuxingjian/.opencode/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d5bae294d24deb13.txt'), ('OPENCODE_PID', '341733'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/liuxingjian/.vscode-server/data/User/workspaceStorage/b828088cd64d216646d910d849fd4ade/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1617b644ec.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch'), ('TURTLEBOT3_MODEL', 'burger'), ('SSH_CONNECTION', '192.168.5.1 53057 192.168.5.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.539723] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.539962] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/lib/my_turtlebot3_launch/laser_to_pointcloud\n'}
+[7.542890] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Set runtime path of "/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/lib/my_turtlebot3_launch/laser_to_pointcloud" to ""\n'}
+[7.543071] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/launch\n'}
+[7.543156] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/launch/turtlebot3_world_gz.launch.py\n'}
+[7.543343] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/config\n'}
+[7.543434] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/config/pointcloud.rviz\n'}
+[7.543519] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/ament_index/resource_index/package_run_dependencies/my_turtlebot3_launch\n'}
+[7.543599] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/ament_index/resource_index/parent_prefix_path/my_turtlebot3_launch\n'}
+[7.543736] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/ament_prefix_path.sh\n'}
+[7.543889] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/ament_prefix_path.dsv\n'}
+[7.543972] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/path.sh\n'}
+[7.544049] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/path.dsv\n'}
+[7.544087] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.bash\n'}
+[7.544158] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.sh\n'}
+[7.544283] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.zsh\n'}
+[7.544517] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.dsv\n'}
+[7.544568] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/package.dsv\n'}
+[7.544599] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/ament_index/resource_index/packages/my_turtlebot3_launch\n'}
+[7.544630] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/cmake/my_turtlebot3_launchConfig.cmake\n'}
+[7.544660] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/cmake/my_turtlebot3_launchConfig-version.cmake\n'}
+[7.544689] (my_turtlebot3_launch) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/package.xml\n'}
+[7.545518] (my_turtlebot3_launch) CommandEnded: {'returncode': 0}
+[7.555426] (my_turtlebot3_launch) JobEnded: {'identifier': 'my_turtlebot3_launch', 'rc': 0}
+[7.555849] (-) EventReactorShutdown: {}

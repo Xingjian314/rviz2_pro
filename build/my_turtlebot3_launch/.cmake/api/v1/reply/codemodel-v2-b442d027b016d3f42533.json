@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f0f22b95abfb9c64e6cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_turtlebot3_launch",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_to_pointcloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_to_pointcloud-129d6b0dffa9b811c518.json",
+					"name" : "laser_to_pointcloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtlebot3_launch_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtlebot3_launch_uninstall-0d3a252ca27012b82be7.json",
+					"name" : "my_turtlebot3_launch_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-00eb8d603a060a5a7841.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch",
+		"source" : "/home/liuxingjian/Desktop/proj/rviz2_pro/src/my_turtlebot3_launch"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -7,6 +7,8 @@
   <maintainer email="xliudt@connect.ust.hk">liuxingjian</maintainer>
   <license>TODO: License declaration</license>
 
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
   <depend>turtlebot3_gazebo</depend>
   <depend>turtlebot3_description</depend>
   <depend>robot_state_publisher</depend>
@@ -18,12 +20,10 @@
   <depend>nav2_lifecycle_manager</depend>
   <depend>tf2_ros</depend>
 
-  <test_depend>ament_copyright</test_depend>
-  <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
-  <test_depend>python3-pytest</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
 
   <export>
-    <build_type>ament_python</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>

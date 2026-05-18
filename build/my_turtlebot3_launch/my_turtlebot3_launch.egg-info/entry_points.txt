@@ -1,3 +1,0 @@
-[console_scripts]
-laser_to_pointcloud = my_turtlebot3_launch.laser_to_pointcloud:main
-
