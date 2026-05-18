@@ -49,6 +49,32 @@ def generate_launch_description():
         output='screen'
     )
     
+    map_yaml = os.path.join(
+        get_package_share_directory('nav2_bringup'),
+        'maps', 'turtlebot3_world.yaml')
+    
+    map_server = Node(
+        package='nav2_map_server',
+        executable='map_server',
+        parameters=[{'yaml_filename': map_yaml, 'use_sim_time': True}],
+        output='screen'
+    )
+    
+    lifecycle_manager = Node(
+        package='nav2_lifecycle_manager',
+        executable='lifecycle_manager',
+        name='lifecycle_manager_map',
+        parameters=[{'autostart': True, 'node_names': ['map_server'], 'use_sim_time': True}],
+        output='screen'
+    )
+    
+    map_to_odom = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments=['0', '0', '0', '0', '0', '0', 'map', 'odom'],
+        output='screen'
+    )
+    
     rviz2 = Node(
         package='rviz2',
         executable='rviz2',
@@ -61,5 +87,8 @@ def generate_launch_description():
         robot_state_publisher,
         spawn_robot,
         laser_to_pointcloud,
+        map_server,
+        lifecycle_manager,
+        map_to_odom,
         rviz2,
     ])

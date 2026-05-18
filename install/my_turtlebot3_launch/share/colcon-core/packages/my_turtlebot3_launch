@@ -1,1 +1,1 @@
-gazebo_ros:laser_geometry:robot_state_publisher:rviz2:turtlebot3_description:turtlebot3_gazebo:xacro
+gazebo_ros:laser_geometry:nav2_lifecycle_manager:nav2_map_server:robot_state_publisher:rviz2:tf2_ros:turtlebot3_description:turtlebot3_gazebo:xacro
