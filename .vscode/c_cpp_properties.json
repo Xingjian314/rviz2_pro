@@ -3,9 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/src/**",
-                "${workspaceFolder}/install/my_turtlebot3_launch/include/**",
-                "/opt/ros/humble/include/**"
+                //"${workspaceFolder}/src",
+                "/opt/ros/humble/include/**",
+                "/usr/include/eigen3/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
