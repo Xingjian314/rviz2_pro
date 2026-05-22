@@ -1,0 +1,55 @@
+[0.012s] Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch': AMENT_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch -- -j8 -l8
+[0.037s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.118s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.136s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.137s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.141s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.174s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.175s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.275s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.295s] -- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.313s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.373s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.374s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.374s] -- Configured cppcheck include dirs: 
+[0.374s] -- Configured cppcheck exclude dirs and/or files: 
+[0.375s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.375s] -- Configured cpplint exclude dirs and/or files: 
+[0.376s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.377s] -- Added test 'lint_cmake' to check CMake code style
+[0.377s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.378s] -- Added test 'uncrustify' to check C / C++ code style
+[0.378s] -- Configured uncrustify additional arguments: 
+[0.379s] -- Added test 'xmllint' to check XML markup files
+[0.381s] -- Configuring done
+[0.393s] -- Generating done
+[0.395s] -- Build files have been written to: /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch
+[0.421s] Consolidate compiler generated dependencies of target laser_to_pointcloud
+[0.434s] [100%] Built target laser_to_pointcloud
+[0.441s] Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch' returned '0': AMENT_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch -- -j8 -l8
+[0.443s] Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch': AMENT_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch
+[0.449s] -- Install configuration: ""
+[0.450s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/lib/my_turtlebot3_launch/laser_to_pointcloud
+[0.451s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/launch
+[0.451s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/launch/turtlebot3_world_gz.launch.py
+[0.451s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/config
+[0.451s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/config/pointcloud.rviz
+[0.451s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/ament_index/resource_index/package_run_dependencies/my_turtlebot3_launch
+[0.452s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/ament_index/resource_index/parent_prefix_path/my_turtlebot3_launch
+[0.452s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/ament_prefix_path.sh
+[0.452s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/ament_prefix_path.dsv
+[0.452s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/path.sh
+[0.452s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/path.dsv
+[0.452s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.bash
+[0.452s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.sh
+[0.452s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.zsh
+[0.452s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.dsv
+[0.452s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/package.dsv
+[0.452s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/ament_index/resource_index/packages/my_turtlebot3_launch
+[0.452s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/cmake/my_turtlebot3_launchConfig.cmake
+[0.452s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/cmake/my_turtlebot3_launchConfig-version.cmake
+[0.453s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/package.xml
+[0.454s] Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch' returned '0': AMENT_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch

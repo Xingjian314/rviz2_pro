@@ -5,7 +5,8 @@
             "includePath": [
                 //"${workspaceFolder}/src",
                 "/opt/ros/humble/include/**",
-                "/usr/include/eigen3/**"
+                "/usr/include/eigen3/**",
+                "/usr/include/x86_64-linux-gnu/qt6/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",

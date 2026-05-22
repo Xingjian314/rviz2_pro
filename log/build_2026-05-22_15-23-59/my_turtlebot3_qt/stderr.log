@@ -1,0 +1,14 @@
+CMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+  The keyword signature for target_link_libraries has already been used with
+  the target "pointcloud_viewer".  All uses of target_link_libraries with a
+  target must be either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake:524 (target_link_libraries)
+   * CMakeLists.txt:17 (target_link_libraries)
+
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (ament_target_dependencies)
+
+

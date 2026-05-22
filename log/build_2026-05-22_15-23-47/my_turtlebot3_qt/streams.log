@@ -1,0 +1,74 @@
+[0.013s] Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liuxingjian/Desktop/proj/rviz2_pro/src/my_turtlebot3_qt -DCMAKE_INSTALL_PREFIX=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt
+[0.155s] -- The C compiler identification is GNU 11.4.0
+[0.265s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.349s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.543s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.638s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.695s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.702s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.714s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.734s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.819s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.909s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.930s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.961s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.974s] -- Looking for pthread.h
+[1.041s] -- Looking for pthread.h - found
+[1.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.112s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.112s] -- Found Threads: TRUE  
+[1.178s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.218s] CMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+[1.218s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[1.218s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[1.218s]   cmake_policy command to set the policy and suppress this warning.
+[1.218s] 
+[1.218s]   FindOpenGL found both a legacy GL library:
+[1.218s] 
+[1.218s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[1.218s] 
+[1.218s]   and GLVND libraries for OpenGL and GLX:
+[1.218s] 
+[1.218s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[1.219s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[1.219s] 
+[1.219s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[1.219s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[1.219s] Call Stack (most recent call first):
+[1.219s]   CMakeLists.txt:7 (find_package)
+[1.219s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.219s] 
+[1.219s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.264s] -- Performing Test HAVE_STDATOMIC
+[1.365s] -- Performing Test HAVE_STDATOMIC - Success
+[1.365s] -- Found WrapAtomic: TRUE  
+[1.381s] -- Found WrapOpenGL: TRUE  
+[1.427s] -- Found XKB: /usr/lib/x86_64-linux-gnu/libxkbcommon.so (found suitable version "1.4.0", minimum required is "0.5.0") 
+[1.432s] -- Found WrapVulkanHeaders: /usr/include  
+[1.472s] CMake Error at CMakeLists.txt:15 (target_link_libraries):
+[1.472s]   The keyword signature for target_link_libraries has already been used with
+[1.472s]   the target "pointcloud_viewer".  All uses of target_link_libraries with a
+[1.472s]   target must be either all-keyword or all-plain.
+[1.472s] 
+[1.472s]   The uses of the keyword signature are here:
+[1.472s] 
+[1.473s]    * /usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreMacros.cmake:524 (target_link_libraries)
+[1.473s] 
+[1.473s] 
+[1.473s] 
+[1.475s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.565s] -- Configuring incomplete, errors occurred!
+[1.565s] See also "/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt/CMakeFiles/CMakeOutput.log".
+[1.573s] Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/liuxingjian/Desktop/proj/rviz2_pro/src/my_turtlebot3_qt -DCMAKE_INSTALL_PREFIX=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt

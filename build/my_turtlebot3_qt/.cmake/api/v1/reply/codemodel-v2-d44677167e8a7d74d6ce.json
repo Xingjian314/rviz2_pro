@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5487c643b3d70bd579f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_turtlebot3_qt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtlebot3_qt_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtlebot3_qt_uninstall-fa5972d77f4ffa9c7957.json",
+					"name" : "my_turtlebot3_qt_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_viewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_viewer-2cd67ffe46cfd4399cdd.json",
+					"name" : "pointcloud_viewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_viewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_viewer_autogen-64d28f2aa4b8c0654342.json",
+					"name" : "pointcloud_viewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-35207e568b835534724f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt",
+		"source" : "/home/liuxingjian/Desktop/proj/rviz2_pro/src/my_turtlebot3_qt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

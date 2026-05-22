@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_turtlebot3_qt</name>
+  <version>0.0.0</version>
+  <description>Qt6 point cloud viewer for TurtleBot3</description>
+  <maintainer email="xliudt@connect.ust.hk">liuxingjian</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

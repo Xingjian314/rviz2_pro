@@ -82,6 +82,12 @@ def generate_launch_description():
         output='screen'
     )
     
+    qt_viewer = Node(
+        package='my_turtlebot3_qt',
+        executable='pointcloud_viewer',
+        output='screen'
+    )
+    
     return LaunchDescription([
         gazebo,
         robot_state_publisher,
@@ -91,4 +97,5 @@ def generate_launch_description():
         lifecycle_manager,
         map_to_odom,
         rviz2,
+        qt_viewer,
     ])

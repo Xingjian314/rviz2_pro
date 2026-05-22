@@ -1,0 +1,4 @@
+Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt -- -j8 -l8
+Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt -- -j8 -l8
+Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt
+Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt
