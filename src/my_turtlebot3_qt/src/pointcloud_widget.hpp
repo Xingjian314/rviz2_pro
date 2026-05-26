@@ -39,6 +39,8 @@ private:
   float rot_x_ = 0.0f;
   float rot_y_ = 0.25f;
   float rot_z_ = 0.0f;
+  float pan_x_ = 0.0f;
+  float pan_y_ = 0.0f;
   float zoom_ = -3.0f;
   QPoint last_mouse_pos_;
 };

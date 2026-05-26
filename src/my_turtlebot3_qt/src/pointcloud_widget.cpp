@@ -74,7 +74,7 @@ void PointCloudWidget::paintGL()
 
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity();
-  glTranslatef(0.0f, 0.0f, zoom_);
+  glTranslatef(pan_x_, pan_y_, zoom_);
   glRotatef(rot_x_, 1.0f, 0.0f, 0.0f);
   glRotatef(rot_y_, 0.0f, 1.0f, 0.0f);
   glRotatef(rot_z_, 0.0f, 0.0f, 1.0f);
@@ -105,8 +105,8 @@ void PointCloudWidget::mouseMoveEvent(QMouseEvent *event)
   int dy = event->pos().y() - last_mouse_pos_.y();
 
   if (event->buttons() & Qt::LeftButton) {
-    rot_y_ += dx * 0.5f;
-    rot_x_ += dy * 0.5f;
+    pan_x_ += dx * 0.005f;
+    pan_y_ -= dy * 0.005f;
     update();
   } else if (event->buttons() & Qt::RightButton) {
     rot_z_ += dx * 0.5f;
