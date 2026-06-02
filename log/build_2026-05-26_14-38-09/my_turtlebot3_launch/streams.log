@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch': AMENT_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch -- -j8 -l8
+[0.099s] [100%] Built target laser_to_pointcloud
+[0.110s] Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch' returned '0': AMENT_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch -- -j8 -l8
+[0.113s] Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch': AMENT_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch
+[0.123s] -- Install configuration: ""
+[0.124s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/lib/my_turtlebot3_launch/laser_to_pointcloud
+[0.124s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/launch
+[0.124s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/launch/turtlebot3_world_gz.launch.py
+[0.125s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/config
+[0.125s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/config/pointcloud.rviz
+[0.126s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/ament_index/resource_index/package_run_dependencies/my_turtlebot3_launch
+[0.126s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/ament_index/resource_index/parent_prefix_path/my_turtlebot3_launch
+[0.126s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/ament_prefix_path.sh
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/ament_prefix_path.dsv
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/path.sh
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/environment/path.dsv
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.bash
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.sh
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.zsh
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/local_setup.dsv
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/package.dsv
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/ament_index/resource_index/packages/my_turtlebot3_launch
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/cmake/my_turtlebot3_launchConfig.cmake
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/cmake/my_turtlebot3_launchConfig-version.cmake
+[0.127s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_launch/share/my_turtlebot3_launch/package.xml
+[0.129s] Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch' returned '0': AMENT_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt:/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_launch

@@ -1,0 +1,297 @@
+[0.000000] (-) TimerEvent: {}
+[0.001395] (-) JobUnselected: {'identifier': 'my_turtlebot3_launch'}
+[0.001660] (my_turtlebot3_qt) JobQueued: {'identifier': 'my_turtlebot3_qt', 'dependencies': OrderedDict()}
+[0.001715] (my_turtlebot3_qt) JobStarted: {'identifier': 'my_turtlebot3_qt'}
+[0.023021] (my_turtlebot3_qt) JobProgress: {'identifier': 'my_turtlebot3_qt', 'progress': 'cmake'}
+[0.026074] (my_turtlebot3_qt) JobProgress: {'identifier': 'my_turtlebot3_qt', 'progress': 'build'}
+[0.026206] (my_turtlebot3_qt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt', '--', '-j8', '-l8'], 'cwd': '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/liuxingjian/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('LANGUAGE', 'en_US:'), ('USER', 'liuxingjian'), ('SSH_CLIENT', '192.168.5.1 55450 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh'), ('OPENCODE_PROCESS_ROLE', 'worker'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/liuxingjian'), ('OLDPWD', '/home/liuxingjian/Desktop/proj/rviz2_pro'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0fd94590-ca7a-41d2-a780-d799634f6f2c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('OPENCODE_RUN_ID', 'bbb8fba6-4f5f-4746-9903-0c0063e7e197'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'liuxingjian'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '98'), ('ROS_LOCALHOST_ONLY', '0'), ('OPENCODE', '1'), ('PATH', '/home/liuxingjian/.opencode/bin:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/home/liuxingjian/.opencode/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-cb499863bf6a84eb.txt'), ('OPENCODE_PID', '2727193'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/liuxingjian/.vscode-server/data/User/workspaceStorage/b828088cd64d216646d910d849fd4ade/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1617b644ec.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt'), ('TURTLEBOT3_MODEL', 'burger'), ('SSH_CONNECTION', '192.168.5.1 55450 192.168.5.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099413] (-) TimerEvent: {}
+[0.140032] (my_turtlebot3_qt) StdoutLine: {'line': b'[ 14%] Automatic MOC for target pointcloud_viewer\n'}
+[0.192683] (my_turtlebot3_qt) StdoutLine: {'line': b'[ 14%] Built target pointcloud_viewer_autogen\n'}
+[0.199545] (-) TimerEvent: {}
+[0.260489] (my_turtlebot3_qt) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target pointcloud_viewer\n'}
+[0.284790] (my_turtlebot3_qt) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/map_render_widget.cpp.o\n'}
+[0.299686] (-) TimerEvent: {}
+[0.399950] (-) TimerEvent: {}
+[0.500491] (-) TimerEvent: {}
+[0.600907] (-) TimerEvent: {}
+[0.702031] (-) TimerEvent: {}
+[0.802465] (-) TimerEvent: {}
+[0.902799] (-) TimerEvent: {}
+[1.003440] (-) TimerEvent: {}
+[1.104045] (-) TimerEvent: {}
+[1.204296] (-) TimerEvent: {}
+[1.304993] (-) TimerEvent: {}
+[1.405305] (-) TimerEvent: {}
+[1.505551] (-) TimerEvent: {}
+[1.605781] (-) TimerEvent: {}
+[1.706413] (-) TimerEvent: {}
+[1.808628] (-) TimerEvent: {}
+[1.908855] (-) TimerEvent: {}
+[2.009226] (-) TimerEvent: {}
+[2.109457] (-) TimerEvent: {}
+[2.211142] (-) TimerEvent: {}
+[2.311438] (-) TimerEvent: {}
+[2.411682] (-) TimerEvent: {}
+[2.511939] (-) TimerEvent: {}
+[2.612173] (-) TimerEvent: {}
+[2.713007] (-) TimerEvent: {}
+[2.813204] (-) TimerEvent: {}
+[2.913450] (-) TimerEvent: {}
+[3.013661] (-) TimerEvent: {}
+[3.113859] (-) TimerEvent: {}
+[3.214072] (-) TimerEvent: {}
+[3.314277] (-) TimerEvent: {}
+[3.414511] (-) TimerEvent: {}
+[3.514889] (-) TimerEvent: {}
+[3.615096] (-) TimerEvent: {}
+[3.716962] (-) TimerEvent: {}
+[3.817214] (-) TimerEvent: {}
+[3.917441] (-) TimerEvent: {}
+[4.017675] (-) TimerEvent: {}
+[4.117917] (-) TimerEvent: {}
+[4.218110] (-) TimerEvent: {}
+[4.318318] (-) TimerEvent: {}
+[4.418548] (-) TimerEvent: {}
+[4.518794] (-) TimerEvent: {}
+[4.619958] (-) TimerEvent: {}
+[4.720294] (-) TimerEvent: {}
+[4.820693] (-) TimerEvent: {}
+[4.921013] (-) TimerEvent: {}
+[5.022165] (-) TimerEvent: {}
+[5.122400] (-) TimerEvent: {}
+[5.222616] (-) TimerEvent: {}
+[5.323062] (-) TimerEvent: {}
+[5.423310] (-) TimerEvent: {}
+[5.523753] (-) TimerEvent: {}
+[5.624004] (-) TimerEvent: {}
+[5.724309] (-) TimerEvent: {}
+[5.826867] (-) TimerEvent: {}
+[5.927162] (-) TimerEvent: {}
+[6.027413] (-) TimerEvent: {}
+[6.127674] (-) TimerEvent: {}
+[6.227932] (-) TimerEvent: {}
+[6.328556] (-) TimerEvent: {}
+[6.429208] (-) TimerEvent: {}
+[6.529490] (-) TimerEvent: {}
+[6.629725] (-) TimerEvent: {}
+[6.730017] (-) TimerEvent: {}
+[6.830345] (-) TimerEvent: {}
+[6.930593] (-) TimerEvent: {}
+[7.030820] (-) TimerEvent: {}
+[7.131177] (-) TimerEvent: {}
+[7.231503] (-) TimerEvent: {}
+[7.331811] (-) TimerEvent: {}
+[7.432091] (-) TimerEvent: {}
+[7.532347] (-) TimerEvent: {}
+[7.632570] (-) TimerEvent: {}
+[7.732809] (-) TimerEvent: {}
+[7.833113] (-) TimerEvent: {}
+[7.933279] (-) TimerEvent: {}
+[8.033585] (-) TimerEvent: {}
+[8.133794] (-) TimerEvent: {}
+[8.234041] (-) TimerEvent: {}
+[8.334790] (-) TimerEvent: {}
+[8.436285] (-) TimerEvent: {}
+[8.536737] (-) TimerEvent: {}
+[8.637265] (-) TimerEvent: {}
+[8.737573] (-) TimerEvent: {}
+[8.837789] (-) TimerEvent: {}
+[8.938059] (-) TimerEvent: {}
+[9.038448] (-) TimerEvent: {}
+[9.138707] (-) TimerEvent: {}
+[9.239036] (-) TimerEvent: {}
+[9.339310] (-) TimerEvent: {}
+[9.439549] (-) TimerEvent: {}
+[9.540104] (-) TimerEvent: {}
+[9.640387] (-) TimerEvent: {}
+[9.740643] (-) TimerEvent: {}
+[9.841024] (-) TimerEvent: {}
+[9.941282] (-) TimerEvent: {}
+[10.041519] (-) TimerEvent: {}
+[10.142672] (-) TimerEvent: {}
+[10.242916] (-) TimerEvent: {}
+[10.343259] (-) TimerEvent: {}
+[10.447116] (-) TimerEvent: {}
+[10.547387] (-) TimerEvent: {}
+[10.647599] (-) TimerEvent: {}
+[10.747833] (-) TimerEvent: {}
+[10.848553] (-) TimerEvent: {}
+[10.948812] (-) TimerEvent: {}
+[11.049080] (-) TimerEvent: {}
+[11.149312] (-) TimerEvent: {}
+[11.250966] (-) TimerEvent: {}
+[11.351222] (-) TimerEvent: {}
+[11.451470] (-) TimerEvent: {}
+[11.551689] (-) TimerEvent: {}
+[11.651922] (-) TimerEvent: {}
+[11.752128] (-) TimerEvent: {}
+[11.853921] (-) TimerEvent: {}
+[11.954119] (-) TimerEvent: {}
+[12.054388] (-) TimerEvent: {}
+[12.155896] (-) TimerEvent: {}
+[12.256168] (-) TimerEvent: {}
+[12.356534] (-) TimerEvent: {}
+[12.458859] (-) TimerEvent: {}
+[12.559152] (-) TimerEvent: {}
+[12.659435] (-) TimerEvent: {}
+[12.759644] (-) TimerEvent: {}
+[12.860441] (-) TimerEvent: {}
+[12.960760] (-) TimerEvent: {}
+[13.061017] (-) TimerEvent: {}
+[13.161272] (-) TimerEvent: {}
+[13.261495] (-) TimerEvent: {}
+[13.361717] (-) TimerEvent: {}
+[13.462467] (-) TimerEvent: {}
+[13.562686] (-) TimerEvent: {}
+[13.662930] (-) TimerEvent: {}
+[13.763175] (-) TimerEvent: {}
+[13.863429] (-) TimerEvent: {}
+[13.963710] (-) TimerEvent: {}
+[14.063973] (-) TimerEvent: {}
+[14.164204] (-) TimerEvent: {}
+[14.264420] (-) TimerEvent: {}
+[14.365867] (-) TimerEvent: {}
+[14.466102] (-) TimerEvent: {}
+[14.566323] (-) TimerEvent: {}
+[14.666558] (-) TimerEvent: {}
+[14.766808] (-) TimerEvent: {}
+[14.867859] (-) TimerEvent: {}
+[14.968135] (-) TimerEvent: {}
+[15.068339] (-) TimerEvent: {}
+[15.168813] (-) TimerEvent: {}
+[15.269009] (-) TimerEvent: {}
+[15.369208] (-) TimerEvent: {}
+[15.469424] (-) TimerEvent: {}
+[15.569651] (-) TimerEvent: {}
+[15.669902] (-) TimerEvent: {}
+[15.772888] (-) TimerEvent: {}
+[15.873087] (-) TimerEvent: {}
+[15.973308] (-) TimerEvent: {}
+[16.073558] (-) TimerEvent: {}
+[16.173813] (-) TimerEvent: {}
+[16.275182] (-) TimerEvent: {}
+[16.375390] (-) TimerEvent: {}
+[16.475923] (-) TimerEvent: {}
+[16.576381] (-) TimerEvent: {}
+[16.677362] (-) TimerEvent: {}
+[16.777620] (-) TimerEvent: {}
+[16.880010] (-) TimerEvent: {}
+[16.980395] (-) TimerEvent: {}
+[17.080667] (-) TimerEvent: {}
+[17.181307] (-) TimerEvent: {}
+[17.281502] (-) TimerEvent: {}
+[17.381736] (-) TimerEvent: {}
+[17.482050] (-) TimerEvent: {}
+[17.582255] (-) TimerEvent: {}
+[17.683272] (-) TimerEvent: {}
+[17.783532] (-) TimerEvent: {}
+[17.884082] (-) TimerEvent: {}
+[17.984303] (-) TimerEvent: {}
+[18.085608] (-) TimerEvent: {}
+[18.187878] (-) TimerEvent: {}
+[18.288093] (-) TimerEvent: {}
+[18.388324] (-) TimerEvent: {}
+[18.488551] (-) TimerEvent: {}
+[18.591876] (-) TimerEvent: {}
+[18.692091] (-) TimerEvent: {}
+[18.792537] (-) TimerEvent: {}
+[18.892743] (-) TimerEvent: {}
+[18.993557] (-) TimerEvent: {}
+[19.093736] (-) TimerEvent: {}
+[19.194028] (-) TimerEvent: {}
+[19.294966] (-) TimerEvent: {}
+[19.395145] (-) TimerEvent: {}
+[19.495320] (-) TimerEvent: {}
+[19.595501] (-) TimerEvent: {}
+[19.695695] (-) TimerEvent: {}
+[19.796079] (-) TimerEvent: {}
+[19.896358] (-) TimerEvent: {}
+[19.998873] (-) TimerEvent: {}
+[20.099070] (-) TimerEvent: {}
+[20.199279] (-) TimerEvent: {}
+[20.299775] (-) TimerEvent: {}
+[20.400062] (-) TimerEvent: {}
+[20.500291] (-) TimerEvent: {}
+[20.600614] (-) TimerEvent: {}
+[20.701874] (-) TimerEvent: {}
+[20.802096] (-) TimerEvent: {}
+[20.902306] (-) TimerEvent: {}
+[21.002523] (-) TimerEvent: {}
+[21.102775] (-) TimerEvent: {}
+[21.203010] (-) TimerEvent: {}
+[21.303273] (-) TimerEvent: {}
+[21.403505] (-) TimerEvent: {}
+[21.503763] (-) TimerEvent: {}
+[21.604112] (-) TimerEvent: {}
+[21.704323] (-) TimerEvent: {}
+[21.804518] (-) TimerEvent: {}
+[21.904783] (-) TimerEvent: {}
+[22.005062] (-) TimerEvent: {}
+[22.110040] (-) TimerEvent: {}
+[22.210266] (-) TimerEvent: {}
+[22.310504] (-) TimerEvent: {}
+[22.410865] (-) TimerEvent: {}
+[22.511321] (-) TimerEvent: {}
+[22.611560] (-) TimerEvent: {}
+[22.711768] (-) TimerEvent: {}
+[22.812253] (-) TimerEvent: {}
+[22.912512] (-) TimerEvent: {}
+[23.012876] (-) TimerEvent: {}
+[23.113127] (-) TimerEvent: {}
+[23.213346] (-) TimerEvent: {}
+[23.313572] (-) TimerEvent: {}
+[23.413785] (-) TimerEvent: {}
+[23.514019] (-) TimerEvent: {}
+[23.614307] (-) TimerEvent: {}
+[23.714521] (-) TimerEvent: {}
+[23.814744] (-) TimerEvent: {}
+[23.915031] (-) TimerEvent: {}
+[24.015221] (-) TimerEvent: {}
+[24.117053] (-) TimerEvent: {}
+[24.217251] (-) TimerEvent: {}
+[24.317483] (-) TimerEvent: {}
+[24.418942] (-) TimerEvent: {}
+[24.519172] (-) TimerEvent: {}
+[24.619419] (-) TimerEvent: {}
+[24.719695] (-) TimerEvent: {}
+[24.788207] (my_turtlebot3_qt) StdoutLine: {'line': b'[ 42%] Linking CXX executable pointcloud_viewer\n'}
+[24.819829] (-) TimerEvent: {}
+[24.921899] (-) TimerEvent: {}
+[25.022097] (-) TimerEvent: {}
+[25.122307] (-) TimerEvent: {}
+[25.224438] (-) TimerEvent: {}
+[25.324688] (-) TimerEvent: {}
+[25.424926] (-) TimerEvent: {}
+[25.525151] (-) TimerEvent: {}
+[25.625383] (-) TimerEvent: {}
+[25.725602] (-) TimerEvent: {}
+[25.826692] (-) TimerEvent: {}
+[25.926975] (-) TimerEvent: {}
+[26.027229] (-) TimerEvent: {}
+[26.088037] (my_turtlebot3_qt) StdoutLine: {'line': b'[100%] Built target pointcloud_viewer\n'}
+[26.101563] (my_turtlebot3_qt) CommandEnded: {'returncode': 0}
+[26.102728] (my_turtlebot3_qt) JobProgress: {'identifier': 'my_turtlebot3_qt', 'progress': 'install'}
+[26.115417] (my_turtlebot3_qt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt'], 'cwd': '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/liuxingjian/.ignition/fuel/fuel.ignitionrobotics.org/openrobotics/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('LANGUAGE', 'en_US:'), ('USER', 'liuxingjian'), ('SSH_CLIENT', '192.168.5.1 55450 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/helpers/browser.sh'), ('OPENCODE_PROCESS_ROLE', 'worker'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/liuxingjian'), ('OLDPWD', '/home/liuxingjian/Desktop/proj/rviz2_pro'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0fd94590-ca7a-41d2-a780-d799634f6f2c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('OPENCODE_RUN_ID', 'bbb8fba6-4f5f-4746-9903-0c0063e7e197'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'liuxingjian'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '98'), ('ROS_LOCALHOST_ONLY', '0'), ('OPENCODE', '1'), ('PATH', '/home/liuxingjian/.opencode/bin:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/liuxingjian/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/liuxingjian/.vscode-server/cli/servers/Stable-0958016b2af9f09bb4257e0df4a95e2f90590f9f/server/bin/remote-cli:/home/liuxingjian/.opencode/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liuxingjian/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-cb499863bf6a84eb.txt'), ('OPENCODE_PID', '2727193'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/liuxingjian/.vscode-server/data/User/workspaceStorage/b828088cd64d216646d910d849fd4ade/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1617b644ec.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt'), ('TURTLEBOT3_MODEL', 'burger'), ('SSH_CONNECTION', '192.168.5.1 55450 192.168.5.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[26.126570] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.127053] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/lib/my_turtlebot3_qt/pointcloud_viewer\n'}
+[26.127321] (-) TimerEvent: {}
+[26.136138] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Set runtime path of "/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/lib/my_turtlebot3_qt/pointcloud_viewer" to ""\n'}
+[26.139104] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/package_run_dependencies/my_turtlebot3_qt\n'}
+[26.140243] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/parent_prefix_path/my_turtlebot3_qt\n'}
+[26.140760] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/ament_prefix_path.sh\n'}
+[26.141096] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/ament_prefix_path.dsv\n'}
+[26.141189] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/path.sh\n'}
+[26.141385] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/path.dsv\n'}
+[26.141469] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.bash\n'}
+[26.141519] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.sh\n'}
+[26.141568] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.zsh\n'}
+[26.141614] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.dsv\n'}
+[26.141659] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/package.dsv\n'}
+[26.141705] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/packages/my_turtlebot3_qt\n'}
+[26.141752] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/cmake/my_turtlebot3_qtConfig.cmake\n'}
+[26.141812] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/cmake/my_turtlebot3_qtConfig-version.cmake\n'}
+[26.141860] (my_turtlebot3_qt) StdoutLine: {'line': b'-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/package.xml\n'}
+[26.141908] (my_turtlebot3_qt) CommandEnded: {'returncode': 0}
+[26.163327] (my_turtlebot3_qt) JobEnded: {'identifier': 'my_turtlebot3_qt', 'rc': 0}
+[26.167711] (-) EventReactorShutdown: {}

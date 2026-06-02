@@ -1,0 +1,45 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt
+[ 14%] Automatic MOC for target pointcloud_viewer
+[ 14%] Built target pointcloud_viewer_autogen
+Consolidate compiler generated dependencies of target pointcloud_viewer
+[ 28%] Building CXX object CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.o
+[ 71%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/pointcloud_widget.cpp.o
+[ 71%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/main.cpp.o
+[ 71%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/map_render_widget.cpp.o
+[ 85%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/path_planner.cpp.o
+[100%] Linking CXX executable pointcloud_viewer
+[100%] Built target pointcloud_viewer
+-- Install configuration: ""
+-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/lib/my_turtlebot3_qt/pointcloud_viewer
+-- Set runtime path of "/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/lib/my_turtlebot3_qt/pointcloud_viewer" to ""
+-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/package_run_dependencies/my_turtlebot3_qt
+-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/parent_prefix_path/my_turtlebot3_qt
+-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/ament_prefix_path.sh
+-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/path.sh
+-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/path.dsv
+-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.bash
+-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.sh
+-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.zsh
+-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.dsv
+-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/package.dsv
+-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/packages/my_turtlebot3_qt
+-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/cmake/my_turtlebot3_qtConfig.cmake
+-- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/cmake/my_turtlebot3_qtConfig-version.cmake
+-- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/package.xml

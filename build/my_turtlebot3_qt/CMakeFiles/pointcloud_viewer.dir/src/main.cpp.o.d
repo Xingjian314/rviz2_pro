@@ -321,6 +321,17 @@ CMakeFiles/pointcloud_viewer.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSplitter \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsplitter.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -738,13 +749,6 @@ CMakeFiles/pointcloud_viewer.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QSurfaceFormat \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qsurfaceformat.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qopengl.h /usr/include/GL/gl.h \
@@ -791,4 +795,84 @@ CMakeFiles/pointcloud_viewer.dir/src/main.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp \
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/liuxingjian/Desktop/proj/rviz2_pro/src/my_turtlebot3_qt/src/map_render_widget.hpp \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.hpp \
+ /opt/ros/humble/include/tf2/tf2/buffer_core.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
+ /usr/include/c++/11/math.h /usr/include/c++/11/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
+ /opt/ros/humble/include/tf2/tf2/visibility_control.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
+ /opt/ros/humble/include/tf2/tf2/buffer_core_interface.hpp \
+ /opt/ros/humble/include/tf2/tf2/time.hpp \
+ /opt/ros/humble/include/tf2/tf2/exceptions.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_storage.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.hpp \
+ /opt/ros/humble/include/tf2/tf2/convert.hpp \
+ /opt/ros/humble/include/tf2/tf2/impl/convert.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/create_timer_interface.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
+ /home/liuxingjian/Desktop/proj/rviz2_pro/src/my_turtlebot3_qt/src/path_planner.hpp

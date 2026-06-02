@@ -7,6 +7,9 @@ set(CMAKE_AUTOMOC ON)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2 REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(Qt6 REQUIRED COMPONENTS Widgets OpenGL OpenGLWidgets)
 
@@ -14,11 +17,17 @@ add_executable(pointcloud_viewer
   src/main.cpp
   src/pointcloud_widget.cpp
   src/pointcloud_widget.hpp
+  src/map_render_widget.cpp
+  src/map_render_widget.hpp
+  src/path_planner.cpp
+  src/path_planner.hpp
 )
 
 ament_target_dependencies(pointcloud_viewer
   rclcpp
   sensor_msgs
+  nav_msgs
+  tf2_ros
 )
 
 target_link_libraries(pointcloud_viewer

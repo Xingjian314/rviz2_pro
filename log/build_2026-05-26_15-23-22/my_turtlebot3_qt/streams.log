@@ -1,0 +1,28 @@
+[0.025s] Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt -- -j8 -l8
+[0.138s] [ 14%] Automatic MOC for target pointcloud_viewer
+[0.191s] [ 14%] Built target pointcloud_viewer_autogen
+[0.259s] Consolidate compiler generated dependencies of target pointcloud_viewer
+[0.283s] [ 28%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/map_render_widget.cpp.o
+[24.787s] [ 42%] Linking CXX executable pointcloud_viewer
+[26.086s] [100%] Built target pointcloud_viewer
+[26.100s] Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt -- -j8 -l8
+[26.114s] Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt
+[26.125s] -- Install configuration: ""
+[26.125s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/lib/my_turtlebot3_qt/pointcloud_viewer
+[26.135s] -- Set runtime path of "/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/lib/my_turtlebot3_qt/pointcloud_viewer" to ""
+[26.138s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/package_run_dependencies/my_turtlebot3_qt
+[26.139s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/parent_prefix_path/my_turtlebot3_qt
+[26.139s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/ament_prefix_path.sh
+[26.139s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/ament_prefix_path.dsv
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/path.sh
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/path.dsv
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.bash
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.sh
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.zsh
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.dsv
+[26.140s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/package.dsv
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/packages/my_turtlebot3_qt
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/cmake/my_turtlebot3_qtConfig.cmake
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/cmake/my_turtlebot3_qtConfig-version.cmake
+[26.140s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/package.xml
+[26.140s] Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt

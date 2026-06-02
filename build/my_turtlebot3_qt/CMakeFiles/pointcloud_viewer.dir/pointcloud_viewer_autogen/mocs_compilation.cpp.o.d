@@ -1,7 +1,7 @@
 CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.o: \
  /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt/pointcloud_viewer_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt/pointcloud_viewer_autogen/UVLADIE3JM/moc_pointcloud_widget.cpp \
+ /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt/pointcloud_viewer_autogen/UVLADIE3JM/moc_map_render_widget.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,10 +117,11 @@ CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt/pointcloud_viewer_autogen/UVLADIE3JM/../../../../src/my_turtlebot3_qt/src/pointcloud_widget.hpp \
- /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/QOpenGLWidget \
- /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/qopenglwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
+ /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt/pointcloud_viewer_autogen/UVLADIE3JM/../../../../src/my_turtlebot3_qt/src/map_render_widget.hpp \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cstdint \
  /usr/include/assert.h /usr/include/x86_64-linux-gnu/qt6/QtCore/qconfig.h \
@@ -192,10 +193,6 @@ CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
@@ -318,29 +315,6 @@ CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/QSurfaceFormat \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qsurfaceformat.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qopengl.h /usr/include/GL/gl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qopenglext.h \
- /usr/include/inttypes.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/QOpenGLFunctions \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qopenglfunctions.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qopenglcontext.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QScopedPointer \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qopenglcontext_platform.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
@@ -350,6 +324,15 @@ CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvector2d.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h \
@@ -358,6 +341,8 @@ CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qscreen.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QList \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSize \
@@ -365,7 +350,13 @@ CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QSizeF \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/QWheelEvent \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -777,13 +768,103 @@ CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.hpp \
+ /opt/ros/humble/include/tf2/tf2/buffer_core.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
+ /usr/include/c++/11/math.h /usr/include/c++/11/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
+ /opt/ros/humble/include/tf2/tf2/visibility_control.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
+ /opt/ros/humble/include/tf2/tf2/buffer_core_interface.hpp \
+ /opt/ros/humble/include/tf2/tf2/time.hpp \
+ /opt/ros/humble/include/tf2/tf2/exceptions.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_storage.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.hpp \
+ /opt/ros/humble/include/tf2/tf2/convert.hpp \
+ /opt/ros/humble/include/tf2/tf2/impl/convert.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/create_timer_interface.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+ /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
+ /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt/pointcloud_viewer_autogen/UVLADIE3JM/../../../../src/my_turtlebot3_qt/src/path_planner.hpp \
+ /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt/pointcloud_viewer_autogen/UVLADIE3JM/moc_pointcloud_widget.cpp \
+ /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt/pointcloud_viewer_autogen/UVLADIE3JM/../../../../src/my_turtlebot3_qt/src/pointcloud_widget.hpp \
+ /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/QOpenGLWidget \
+ /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/qopenglwidget.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QSurfaceFormat \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qsurfaceformat.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qopengl.h /usr/include/GL/gl.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qopenglext.h \
+ /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QOpenGLFunctions \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qopenglfunctions.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qopenglcontext.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QScopedPointer \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qopenglcontext_platform.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QWheelEvent \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

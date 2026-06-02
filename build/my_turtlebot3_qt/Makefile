@@ -271,6 +271,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_viewer.dir/build.make CMakeFiles/pointcloud_viewer.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/map_render_widget.o: src/map_render_widget.cpp.o
+.PHONY : src/map_render_widget.o
+
+# target to build an object file
+src/map_render_widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_viewer.dir/build.make CMakeFiles/pointcloud_viewer.dir/src/map_render_widget.cpp.o
+.PHONY : src/map_render_widget.cpp.o
+
+src/map_render_widget.i: src/map_render_widget.cpp.i
+.PHONY : src/map_render_widget.i
+
+# target to preprocess a source file
+src/map_render_widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_viewer.dir/build.make CMakeFiles/pointcloud_viewer.dir/src/map_render_widget.cpp.i
+.PHONY : src/map_render_widget.cpp.i
+
+src/map_render_widget.s: src/map_render_widget.cpp.s
+.PHONY : src/map_render_widget.s
+
+# target to generate assembly for a file
+src/map_render_widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_viewer.dir/build.make CMakeFiles/pointcloud_viewer.dir/src/map_render_widget.cpp.s
+.PHONY : src/map_render_widget.cpp.s
+
+src/path_planner.o: src/path_planner.cpp.o
+.PHONY : src/path_planner.o
+
+# target to build an object file
+src/path_planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_viewer.dir/build.make CMakeFiles/pointcloud_viewer.dir/src/path_planner.cpp.o
+.PHONY : src/path_planner.cpp.o
+
+src/path_planner.i: src/path_planner.cpp.i
+.PHONY : src/path_planner.i
+
+# target to preprocess a source file
+src/path_planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_viewer.dir/build.make CMakeFiles/pointcloud_viewer.dir/src/path_planner.cpp.i
+.PHONY : src/path_planner.cpp.i
+
+src/path_planner.s: src/path_planner.cpp.s
+.PHONY : src/path_planner.s
+
+# target to generate assembly for a file
+src/path_planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointcloud_viewer.dir/build.make CMakeFiles/pointcloud_viewer.dir/src/path_planner.cpp.s
+.PHONY : src/path_planner.cpp.s
+
 src/pointcloud_widget.o: src/pointcloud_widget.cpp.o
 .PHONY : src/pointcloud_widget.o
 
@@ -318,6 +366,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/map_render_widget.o"
+	@echo "... src/map_render_widget.i"
+	@echo "... src/map_render_widget.s"
+	@echo "... src/path_planner.o"
+	@echo "... src/path_planner.i"
+	@echo "... src/path_planner.s"
 	@echo "... src/pointcloud_widget.o"
 	@echo "... src/pointcloud_widget.i"
 	@echo "... src/pointcloud_widget.s"

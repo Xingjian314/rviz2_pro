@@ -1,0 +1,49 @@
+[0.020s] Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt -- -j8 -l8
+[0.132s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.284s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.352s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.357s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.368s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.384s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.460s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.665s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.705s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.726s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.989s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.049s] -- Configuring done
+[1.137s] -- Generating done
+[1.152s] -- Build files have been written to: /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt
+[1.193s] [ 14%] Automatic MOC for target pointcloud_viewer
+[1.760s] [ 14%] Built target pointcloud_viewer_autogen
+[1.780s] Consolidate compiler generated dependencies of target pointcloud_viewer
+[1.794s] [ 28%] Building CXX object CMakeFiles/pointcloud_viewer.dir/pointcloud_viewer_autogen/mocs_compilation.cpp.o
+[1.795s] [ 71%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/pointcloud_widget.cpp.o
+[1.795s] [ 71%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/main.cpp.o
+[1.795s] [ 71%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/map_render_widget.cpp.o
+[1.795s] [ 85%] Building CXX object CMakeFiles/pointcloud_viewer.dir/src/path_planner.cpp.o
+[24.313s] [100%] Linking CXX executable pointcloud_viewer
+[25.557s] [100%] Built target pointcloud_viewer
+[25.569s] Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt -- -j8 -l8
+[25.583s] Invoking command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt
+[25.593s] -- Install configuration: ""
+[25.596s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/lib/my_turtlebot3_qt/pointcloud_viewer
+[25.603s] -- Set runtime path of "/home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/lib/my_turtlebot3_qt/pointcloud_viewer" to ""
+[25.604s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/package_run_dependencies/my_turtlebot3_qt
+[25.605s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/parent_prefix_path/my_turtlebot3_qt
+[25.605s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/ament_prefix_path.sh
+[25.605s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/ament_prefix_path.dsv
+[25.605s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/path.sh
+[25.605s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/environment/path.dsv
+[25.605s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.bash
+[25.606s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.sh
+[25.606s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.zsh
+[25.606s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/local_setup.dsv
+[25.606s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/package.dsv
+[25.606s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/ament_index/resource_index/packages/my_turtlebot3_qt
+[25.606s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/cmake/my_turtlebot3_qtConfig.cmake
+[25.606s] -- Up-to-date: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/cmake/my_turtlebot3_qtConfig-version.cmake
+[25.607s] -- Installing: /home/liuxingjian/Desktop/proj/rviz2_pro/install/my_turtlebot3_qt/share/my_turtlebot3_qt/package.xml
+[25.609s] Invoked command in '/home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/liuxingjian/Desktop/proj/rviz2_pro/build/my_turtlebot3_qt
